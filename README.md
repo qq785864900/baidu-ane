@@ -1,18 +1,26 @@
 百度ane是一个方便flash as3开发人员在flex，flash air 移动应用中添加百度移动广告联盟广告的ane插件，
+
 支持flash air ios和flash air android，支持百度广告联盟全屏广告和banner广告
 百度广告联盟网站：http://munion.baidu.com/
+
 版本号：1.0
+
 构建于：adobe air sdk 4.0，百度移动推广sdk android 3.42 ，百度移动应用广告ios sdk3.4.7
 iphone4/ios7,iphone5/ios7,小米/android 4测试都ok
 
+
 使用：
 1.在百度广告联盟网站创建应用，获取广告id和计费id
-2.添加baidu1.0.ane到flex air项目或者flash android ，flash ios项目中。具体怎么在flex air项目中加ane可以在网上找
+
+2.添加baidu1.0.ane到flex air项目或者flash android ，flash ios项目中。具体怎么在flex
+air项目中加ane可以在网上找
+
 3.书写下面代码,正式上传应用到商店时把debug改成在百度网站获得的广告id和计费ID
 if(BaiDu.getInstance().supportDevice){
 	BaiDu.getInstance().setKeys("debug","debug");//	BaiDu.getInstance().setKeys("appsid","计费id");
 	BaiDu.getInstance().showBanner(BaiDu.BANNER,RelationPosition.BOTTOM_CENTER);
 }
+
 4.确认xxx-app.xml中已经有ane的id代码
  <extensionID>com.baidu.mobads</extensionID>
 5.ios只需要上门4步，android版本需要比ios多出此步骤
