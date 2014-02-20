@@ -1,70 +1,70 @@
-°Ù¶ÈaneÊÇÒ»¸ö·½±ãflash as3¿ª·¢ÈËÔ±ÔÚflex£¬flash air ÒÆ¶¯Ó¦ÓÃÖĞÌí¼Ó°Ù¶ÈÒÆ¶¯¹ã¸æÁªÃË¹ã¸æµÄane²å¼ş£¬
-Ö§³Öflash air iosºÍflash air android£¬Ö§³Ö°Ù¶È¹ã¸æÁªÃËÈ«ÆÁ¹ã¸æºÍbanner¹ã¸æ
-°Ù¶È¹ã¸æÁªÃËÍøÕ¾£ºhttp://munion.baidu.com/
-°æ±¾ºÅ£º1.0
-¹¹½¨ÓÚ£ºadobe air sdk 4.0£¬°Ù¶ÈÒÆ¶¯ÍÆ¹ãsdk android 3.42 £¬°Ù¶ÈÒÆ¶¯Ó¦ÓÃ¹ã¸æios sdk3.4.7
-iphone4/ios7,iphone5/ios7,Ğ¡Ã×/android 4²âÊÔ¶¼ok
+ç™¾åº¦aneæ˜¯ä¸€ä¸ªæ–¹ä¾¿flash as3å¼€å‘äººå‘˜åœ¨flexï¼Œflash air ç§»åŠ¨åº”ç”¨ä¸­æ·»åŠ ç™¾åº¦ç§»åŠ¨å¹¿å‘Šè”ç›Ÿå¹¿å‘Šçš„aneæ’ä»¶ï¼Œ
+æ”¯æŒflash air ioså’Œflash air androidï¼Œæ”¯æŒç™¾åº¦å¹¿å‘Šè”ç›Ÿå…¨å±å¹¿å‘Šå’Œbannerå¹¿å‘Š
+ç™¾åº¦å¹¿å‘Šè”ç›Ÿç½‘ç«™ï¼šhttp://munion.baidu.com/
+ç‰ˆæœ¬å·ï¼š1.0
+æ„å»ºäºï¼šadobe air sdk 4.0ï¼Œç™¾åº¦ç§»åŠ¨æ¨å¹¿sdk android 3.42 ï¼Œç™¾åº¦ç§»åŠ¨åº”ç”¨å¹¿å‘Šios sdk3.4.7
+iphone4/ios7,iphone5/ios7,å°ç±³/android 4æµ‹è¯•éƒ½ok
 
-Ê¹ÓÃ£º
-1.ÔÚ°Ù¶È¹ã¸æÁªÃËÍøÕ¾´´½¨Ó¦ÓÃ£¬»ñÈ¡¹ã¸æidºÍ¼Æ·Ñid
-2.Ìí¼Óbaidu1.0.aneµ½flex airÏîÄ¿»òÕßflash android £¬flash iosÏîÄ¿ÖĞ¡£¾ßÌåÔõÃ´ÔÚflex airÏîÄ¿ÖĞ¼Óane¿ÉÒÔÔÚÍøÉÏÕÒ
-3.ÊéĞ´ÏÂÃæ´úÂë,ÕıÊ½ÉÏ´«Ó¦ÓÃµ½ÉÌµêÊ±°Ñdebug¸Ä³ÉÔÚ°Ù¶ÈÍøÕ¾»ñµÃµÄ¹ã¸æidºÍ¼Æ·ÑID
+ä½¿ç”¨ï¼š
+1.åœ¨ç™¾åº¦å¹¿å‘Šè”ç›Ÿç½‘ç«™åˆ›å»ºåº”ç”¨ï¼Œè·å–å¹¿å‘Šidå’Œè®¡è´¹id
+2.æ·»åŠ baidu1.0.aneåˆ°flex airé¡¹ç›®æˆ–è€…flash android ï¼Œflash iosé¡¹ç›®ä¸­ã€‚å…·ä½“æ€ä¹ˆåœ¨flex airé¡¹ç›®ä¸­åŠ aneå¯ä»¥åœ¨ç½‘ä¸Šæ‰¾
+3.ä¹¦å†™ä¸‹é¢ä»£ç ,æ­£å¼ä¸Šä¼ åº”ç”¨åˆ°å•†åº—æ—¶æŠŠdebugæ”¹æˆåœ¨ç™¾åº¦ç½‘ç«™è·å¾—çš„å¹¿å‘Šidå’Œè®¡è´¹ID
 if(BaiDu.getInstance().supportDevice){
-	BaiDu.getInstance().setKeys("debug","debug");//	BaiDu.getInstance().setKeys("appsid","¼Æ·Ñid");
+	BaiDu.getInstance().setKeys("debug","debug");//	BaiDu.getInstance().setKeys("appsid","è®¡è´¹id");
 	BaiDu.getInstance().showBanner(BaiDu.BANNER,RelationPosition.BOTTOM_CENTER);
 }
-4.È·ÈÏxxx-app.xmlÖĞÒÑ¾­ÓĞaneµÄid´úÂë
+4.ç¡®è®¤xxx-app.xmlä¸­å·²ç»æœ‰aneçš„idä»£ç 
  <extensionID>com.baidu.mobads</extensionID>
-5.iosÖ»ĞèÒªÉÏÃÅ4²½£¬android°æ±¾ĞèÒª±Èios¶à³ö´Ë²½Öè
-     a.¸øÓ¦ÓÃÌí¼ÓÏà¹ØÈ¨ÏŞ£¬È·ÈÏÔÚxxx-app.xmlÖĞÌí¼ÓÏÂÃæµÄÈ¨ÏŞ´úÂë
+5.iosåªéœ€è¦ä¸Šé—¨4æ­¥ï¼Œandroidç‰ˆæœ¬éœ€è¦æ¯”ioså¤šå‡ºæ­¤æ­¥éª¤
+     a.ç»™åº”ç”¨æ·»åŠ ç›¸å…³æƒé™ï¼Œç¡®è®¤åœ¨xxx-app.xmlä¸­æ·»åŠ ä¸‹é¢çš„æƒé™ä»£ç 
             <uses-permission android:name="android.permission.INTERNET"/>
 	    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 	    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 	    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 	    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 	    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-     b.´úÂëÖĞÌí¼Ó¹ã¸æµÄActivity£¬Ìá½»¸ø°Ù¶ÈÉóºËÊ±ĞèÒª¼ÓÁ©meta-data£¬ÖµÊÇ°Ù¶ÈÉêÇëµ½µÄID£¬Ìá½»µ½ÊĞ³¡µÄÊ±ºò¿ÉÒÔÉ¾³ı
+     b.ä»£ç ä¸­æ·»åŠ å¹¿å‘Šçš„Activityï¼Œæäº¤ç»™ç™¾åº¦å®¡æ ¸æ—¶éœ€è¦åŠ ä¿©meta-dataï¼Œå€¼æ˜¯ç™¾åº¦ç”³è¯·åˆ°çš„IDï¼Œæäº¤åˆ°å¸‚åœºçš„æ—¶å€™å¯ä»¥åˆ é™¤
         <application>
     	<meta-data android:name="BaiduMobAd_APP_ID" android:value="debug" /> 
 	<meta-data android:name="BaiduMobAd_APP_SEC" android:value="debug" />
   	 <activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation"/> 
 	</application>
-     c.´ò°ü³öapk£¬°ÑextraÄ¿Â¼ÍÏ½øapkÖĞ¡£¿ÉÒÔÓÃapktool×ö£¬Ò²¿ÉÒÔÓÃwinrar×ö£¬´ò¿ª·½Ê½Ñ¡Ôñwinrar£¬È»ºó°ÑextraÄ¿Â¼ÍÏ½øÈ¥£¬¾Í¿ÉÒÔÁË,ÍÏ½øÈ¥ºóapkÄ¿Â¼½á¹¹¿ÉÒÔ¿´½ØÍ¼
-     d.¸øĞŞ¸ÄºóµÄapkÇ©Ãû£¬¿ÉÒÔÓÃÃüÁîĞĞµÄ·½Ê½¸øapkÇ©Ãû£¨×ö·¨¿ÉÒÔ°Ù¶È ¸øapkÇ©Ãû£¬×¨Òµ×ö·¨£©£¬Ò²¿ÉÒÔÓÃÓÃ"APKÇ©Ãû¹¤¾ß.exe"Ç©Ãû(¼òµ¥²ËÄñµÄ×ö·¨)
-6.apk»òÕßipa´ò°ü³öÀ´ºóĞèÒªÌá½»µ½°Ù¶È¹ã¸æÁªÃËÉóºË£¬Ìá½»ÉêÇëÇ°¼ÇµÃ°Ñdebug¶¼»»³ÉÓ¦ÓÃµÄappsidºÍ¼Æ·Ñid
+     c.æ‰“åŒ…å‡ºapkï¼ŒæŠŠextraç›®å½•æ‹–è¿›apkä¸­ã€‚å¯ä»¥ç”¨apktoolåšï¼Œä¹Ÿå¯ä»¥ç”¨winraråšï¼Œæ‰“å¼€æ–¹å¼é€‰æ‹©winrarï¼Œç„¶åæŠŠextraç›®å½•æ‹–è¿›å»ï¼Œå°±å¯ä»¥äº†,æ‹–è¿›å»åapkç›®å½•ç»“æ„å¯ä»¥çœ‹æˆªå›¾
+     d.ç»™ä¿®æ”¹åçš„apkç­¾åï¼Œå¯ä»¥ç”¨å‘½ä»¤è¡Œçš„æ–¹å¼ç»™apkç­¾åï¼ˆåšæ³•å¯ä»¥ç™¾åº¦ ç»™apkç­¾åï¼Œä¸“ä¸šåšæ³•ï¼‰ï¼Œä¹Ÿå¯ä»¥ç”¨ç”¨"APKç­¾åå·¥å…·.exe"ç­¾å(ç®€å•èœé¸Ÿçš„åšæ³•)
+6.apkæˆ–è€…ipaæ‰“åŒ…å‡ºæ¥åéœ€è¦æäº¤åˆ°ç™¾åº¦å¹¿å‘Šè”ç›Ÿå®¡æ ¸ï¼Œæäº¤ç”³è¯·å‰è®°å¾—æŠŠdebugéƒ½æ¢æˆåº”ç”¨çš„appsidå’Œè®¡è´¹id
 
-aneÆäËûapi:
-»º´æ¼ÓÔØ°Ù¶ÈÈ«ÆÁ¹ã¸æ
+aneå…¶ä»–api:
+ç¼“å­˜åŠ è½½ç™¾åº¦å…¨å±å¹¿å‘Š
 public function cacheInterstitial():void
-Õ¹Ê¾¹ã¸æ£¬Õ¹Ê¾Ç°ÏÈĞèÒª»º´æºÃ
+å±•ç¤ºå¹¿å‘Šï¼Œå±•ç¤ºå‰å…ˆéœ€è¦ç¼“å­˜å¥½
 public function showInterstitial():void
-¼ì²â°Ù¶ÈÒÆ¶¯È«ÆÁ¹ã¸æÊÇ·ñ»º´æºÃÁË
+æ£€æµ‹ç™¾åº¦ç§»åŠ¨å…¨å±å¹¿å‘Šæ˜¯å¦ç¼“å­˜å¥½äº†
 public function isInterstitialReady():Boolean
-Ïà¶ÔÎ»ÖÃ£¬Õ¹Ê¾°Ù¶ÈÒÆ¶¯Ó¦ÓÃbanner¹ã¸æ
+ç›¸å¯¹ä½ç½®ï¼Œå±•ç¤ºç™¾åº¦ç§»åŠ¨åº”ç”¨bannerå¹¿å‘Š
 public function showBanner(adSize:BaiDuSize, position:int):void
-¾ø¶Ô¶¨Î»Õ¹Ê¾°Ù¶ÈÓ¦ÓÃ¹ã¸æ
+ç»å¯¹å®šä½å±•ç¤ºç™¾åº¦åº”ç”¨å¹¿å‘Š
 public function showBannerAbsolute(adSize:BaiDuSize, x:Number, y:Number):void
-Òş²Øbanner¹ã¸æ
+éšè—bannerå¹¿å‘Š
 public function hideBanner():void
 
-aneÖ§³Ö¹ã¸æÏà¹ØµÄ¸÷ÖÖÊÂ¼şÔÚBaiDuAdEventÖĞµÄ³£Á¿
-¹ã¸æÒş²Ø
+aneæ”¯æŒå¹¿å‘Šç›¸å…³çš„å„ç§äº‹ä»¶åœ¨BaiDuAdEventä¸­çš„å¸¸é‡
+å¹¿å‘Šéšè—
 public static const onBannerDismiss:String = "onBannerDismiss";
-¹ã¸æ¼ÓÔØÊ§°Ü
+å¹¿å‘ŠåŠ è½½å¤±è´¥
 public static const onBannerFailedReceive:String = "onBannerFailedReceive";
-µã»÷¹ã¸æÀë¿ªÓ¦ÓÃ
+ç‚¹å‡»å¹¿å‘Šç¦»å¼€åº”ç”¨
 public static const onBannerLeaveApplication:String = "onBannerLeaveApplication";
-Õ¹Ê¾¹ã¸æ
+å±•ç¤ºå¹¿å‘Š
 public static const onBannerPresent:String = "onBannerPresent";
-½ÓÊÕµ½¹ã¸æ
+æ¥æ”¶åˆ°å¹¿å‘Š
 public static const onBannerReceive:String = "onBannerReceive";
-È«ÆÁ¹ã¸æ¹Ø±Õ
+å…¨å±å¹¿å‘Šå…³é—­
 public static const onInterstitialDismiss:String = "onInterstitialDismiss";
-È«ÆÁ¹ã¸æ¼ÓÔØÊ§°Ü
+å…¨å±å¹¿å‘ŠåŠ è½½å¤±è´¥
 public static const onInterstitialFailedReceive:String = "onInterstitialFailedReceive";
-µã»÷ÁËÈ«ÆÁ¹ã¸æÌø³öÓ¦ÓÃ
+ç‚¹å‡»äº†å…¨å±å¹¿å‘Šè·³å‡ºåº”ç”¨
 public static const onInterstitialLeaveApplication:String = "onInterstitialLeaveApplication";
-È«ÆÁ¹ã¸æ½«Õ¹Ê¾
+å…¨å±å¹¿å‘Šå°†å±•ç¤º
 public static const onInterstitialPresent:String = "onInterstitialPresent";
-È«ÆÁ¹ã¸æ¼ÓÔØ³É¹¦
+å…¨å±å¹¿å‘ŠåŠ è½½æˆåŠŸ
 public static const onInterstitialReceive:String = "onInterstitialReceive";
